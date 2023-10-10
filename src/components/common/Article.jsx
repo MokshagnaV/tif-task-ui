@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Article({ data, center }) {
   return (
-    <div className="p-7 border max-md:border-[#373737] md:border-2 rounded-3xl">
-      <img src={data.img} className="w-full max-md:p-5" alt="food" />
+    <article className="p-7 border max-md:border-[#373737] md:border-2 rounded-3xl">
+      <figure>
+        <img src={data.img} className="w-full max-md:p-5" alt="food" />
+      </figure>
       <div className="pt-0 p-4">
         <div className="flex flex-col gap-3 my-5">
           <h3 className="font-poppins md:text-xl text-heading font-bold max-md:text-center max-md:leading-9">
@@ -22,6 +24,6 @@ export default function Article({ data, center }) {
           </button>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
