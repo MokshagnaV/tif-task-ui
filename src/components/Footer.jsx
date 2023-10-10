@@ -3,7 +3,7 @@ import { logo, social1, social2, social3 } from "../assets";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8F8F8] py-24 px-[50px] md:px-[100px] flex flex-col md:flex-row gap-16">
+    <footer className="bg-[#F8F8F8] text-footerBody font-source-sans py-24 px-[50px] md:px-[100px] flex flex-col md:flex-row gap-16">
       <div className="md:w-[25%]">
         <img src={logo} className="max-md:w-[75px] max-md:m-auto" alt="logo" />
       </div>
@@ -49,7 +49,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="md:text-sm text-xs">© 2022 Food Truck Example</p>
+        <p className="font-roboto md:text-sm text-xs">
+          © 2022 Food Truck Example
+        </p>
       </div>
     </footer>
   );

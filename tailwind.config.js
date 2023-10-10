@@ -13,8 +13,8 @@ module.exports = {
         footerBody: "#646874",
       },
       fontFamily: {
-        "source-sans": ["Source Sans 3", ...defaultTheme.fontFamily.sans],
-        "open-sans": ["Open Sans", ...defaultTheme.fontFamily.sans],
+        "source-sans": ['"Source Sans 3"', ...defaultTheme.fontFamily.sans],
+        "open-sans": ['"Open Sans"', ...defaultTheme.fontFamily.sans],
         poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
         roboto: ["Roboto", ...defaultTheme.fontFamily.sans],
       },

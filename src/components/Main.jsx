@@ -36,8 +36,8 @@ export default function Main() {
         />
         {/* max-md:text-[11px]  */}
         <button
-          className="max-md:text-sm font-[600] px-5 md:py-3
-        mr-[18.55px] md:mr-[41px] border border-white text-white rounded-full max-md:leading-10"
+          className="max-md:text-sm font-[600] px-5 md:py-3 font-source-sans
+        mr-5 md:mr-[41px] border border-white text-white rounded-full max-md:leading-10"
         >
           Get In Touch
         </button>
@@ -79,12 +79,13 @@ export default function Main() {
             <img src={hero} alt="pizza object-cover" />
           </div>
         </section>
-        <section className="flex justify-around md:my-36 about-bg">
+
+        <section className="flex justify-around md:my-36 mb-36 about-bg">
           <div className="max-md:hidden w-[50%] flex justify-center">
             <img src={about} alt="wooden spoon" />
           </div>
           <div className="md:w-[50%] flex flex-col items-start max-md:text-center max-md:items-center py-36 px-16">
-            <h2 className="text-heading font-poppins text-2xl md:text-5xl mb-5">
+            <h2 className="text-heading font-poppins text-2xl md:text-5xl mb-5 ">
               About Us
             </h2>
             <p className="font-open-sans max-md:text-sm mb-4 md:mb-5 max-md:leading-6 max-w-[455px]">
@@ -95,17 +96,18 @@ export default function Main() {
               not only five centuries.
             </p>
             <button
-              className="text-white bg-red font-bold font-source-sans
-            px-8 md:px-6  py-2 rounded-full max-md:text-sm"
+              className="font-source-sans text-white bg-red font-bold
+            px-8 md:px-6  py-2 rounded-full max-md:text-sm tracking-[0.33px] md:tracking-wide"
             >
               Read More
             </button>
           </div>
         </section>
+
         <section className="px-[50px] md:px-[100px] pb-14 md:pb-16">
           <h2
-            className="text-heading font-source-sans tracking-wide text-3xl
-           leading-2 md:leading-2 md:text-6xl md:leading-loose max-md:text-center"
+            className="text-heading font-poppins md:font-source-sans tracking-wide 
+            text-3xl md:text-6xl md:leading-loose max-md:text-center"
           >
             Latest Articles
           </h2>
